@@ -9,20 +9,6 @@ let footer = document.getElementsByClassName("footer")[0];
 let contactHeading = document.getElementById("contact-heading");
 
 
-console.log(button);
-button.addEventListener("click", function () {
-    box5.style.display = "flex";
-    box6.style.display = "flex";
-    box7.style.display = "flex";
-    box8.style.display = "flex";
-    offerContainer.style.marginTop = "-50%";
-    mainContainer.style.height = "1500px";
-    footer.style.top = "390%";
-    contactHeading.style.marginTop = "10%";
-    // window.scrollTo(0, 500);
-
-});
-
 let currentSlide = 0;
 let slides = document.querySelectorAll('.slide');
 
